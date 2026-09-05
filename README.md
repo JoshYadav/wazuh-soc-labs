@@ -256,8 +256,6 @@ Any credentials, API keys, tokens, or other secrets used during the labs should 
 ## 👨‍💻 Author
 
 **Josh Yadav**
-Computer Science Engineering Student
-Cybersecurity · SOC · Blue Team · SIEM · Incident Response
 
 ---
 
