@@ -2,11 +2,11 @@
 
 ### Hands-On Security Monitoring, Detection, Investigation & Response
 
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-blue)
-![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20Blue%20Team-red)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-green)
+![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20Blue%20Team-blue)
 ![Suricata](https://img.shields.io/badge/Network%20IDS-Suricata-orange)
 ![Auditd](https://img.shields.io/badge/Linux-Auditd-yellow)
-![VirusTotal](https://img.shields.io/badge/Threat%20Intel-VirusTotal-green)
+![VirusTotal](https://img.shields.io/badge/Threat%20Intel-VirusTotal-blue)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE%20ATT%26CK-Mapped-red)
 ![Docker](https://img.shields.io/badge/Environment-Docker-blue)
 ![Kali Linux](https://img.shields.io/badge/Endpoint-Kali%20Linux-black)
