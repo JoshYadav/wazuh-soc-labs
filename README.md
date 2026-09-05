@@ -249,7 +249,6 @@ Any credentials, API keys, tokens, or other secrets used during the labs should 
 <VIRUSTOTAL_API_KEY>
 ```
 
-> **Never commit real API keys, passwords, tokens, or other sensitive credentials to the repository.**
 
 ---
 
