@@ -786,8 +786,7 @@ the SOC analyst mindset.
 This lab is **Lab 1** in the Wazuh SOC Labs repository and establishes
 the endpoint-monitoring foundation for the later labs.
 
-**Next:** [Lab 2 --- Suricata IDS +
-Wazuh](./Lab-2-Suricata-IDS-Wazuh.md)
+**Next:** [Lab 2 --- Suricata-IDS-Wazuh](./Lab-2-Suricata-IDS-Wazuh.md)
 
 ------------------------------------------------------------------------
 
