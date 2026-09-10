@@ -794,8 +794,6 @@ Wazuh](./Lab-2-Suricata-IDS-Wazuh.md)
 ## 👨‍💻 Author
 
 **Josh Yadav**\
-Computer Science Engineering Student\
-Cybersecurity · SOC · Blue Team · SIEM · Incident Response
 
 ------------------------------------------------------------------------
 
