@@ -739,49 +739,6 @@ network, audit and threat-intelligence data.
 
 ------------------------------------------------------------------------
 
-## 🎤 Interview Questions
-
-### What is File Integrity Monitoring?
-
-FIM is a security mechanism that monitors selected files and directories
-for changes such as creation, modification, deletion, or integrity
-changes.
-
-### Why is FIM useful in a SOC?
-
-It provides endpoint visibility into file changes that may indicate
-unauthorized activity, malware behavior, configuration tampering,
-persistence, or other suspicious actions.
-
-### Does every FIM alert mean a system is compromised?
-
-No. Many file changes are legitimate. A SOC analyst must validate the
-change using context and additional telemetry.
-
-### What is the purpose of a file hash?
-
-A cryptographic hash provides a fingerprint of file contents. Comparing
-hashes can help determine whether the contents of a file changed.
-
-### What happened when the test file was created?
-
-Wazuh generated a file-added event associated with Rule 554, shown as
-`File added to the system.`
-
-### What happened when the file was modified?
-
-Wazuh detected an integrity change and generated Rule 550, shown as
-`Integrity checksum changed.`
-
-### What would you investigate after receiving a suspicious FIM alert?
-
-I would identify the endpoint and file, determine when and how it
-changed, identify the user/process responsible, compare integrity
-information, check threat intelligence where appropriate, correlate
-related telemetry, and determine whether the activity is legitimate or
-suspicious.
-
-------------------------------------------------------------------------
 
 ## 🧪 Lab Outcome
 
