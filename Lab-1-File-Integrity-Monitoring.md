@@ -792,7 +792,7 @@ the endpoint-monitoring foundation for the later labs.
 
 ## 👨‍💻 Author
 
-**Josh Yadav**\
+**Josh Yadav**
 
 ------------------------------------------------------------------------
 
