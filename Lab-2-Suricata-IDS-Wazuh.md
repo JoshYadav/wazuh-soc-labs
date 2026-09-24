@@ -236,7 +236,7 @@ The important SOC lesson is that **detecting ICMP traffic does not automatically
 
 The following screenshot shows the Wazuh Threat Hunting environment with Suricata-generated security telemetry.
 
-![Suricata Wazuh Dashboard](./01-suricata-wazuh-dashboard.jpg)
+![Suricata Wazuh Dashboard](./images/lab-2/01-suricata-wazuh-dashboard.jpg)
 
 ### What this demonstrates
 
@@ -259,7 +259,7 @@ A dashboard is useful as an investigation starting point, but the analyst normal
 
 After generating the controlled ICMP traffic, I narrowed the investigation to the resulting Suricata events inside Wazuh.
 
-![ICMP Suricata Events in Wazuh](./02-icmp-wazuh-events.jpg)
+![ICMP Suricata Events in Wazuh](./images/lab-2/02-icmp-wazuh-events.jpg)
 
 The captured event information includes:
 
@@ -320,7 +320,7 @@ The presence of scanning activity alone does not establish malicious intent.
 
 The Nmap-generated activity produced Suricata alerts that were visible through Wazuh.
 
-![Nmap Suricata Alerts in Wazuh](./03-nmap-wazuh-security-alerts.jpg)
+![Nmap Suricata Alerts in Wazuh](./images/lab-2/03-nmap-wazuh-security-alerts.jpg)
 
 The captured evidence shows:
 
@@ -361,7 +361,7 @@ The final interpretation still depends on the environment and whether the activi
 
 The next step was to inspect the underlying Suricata JSON telemetry.
 
-![Raw Suricata Nmap JSON Logs](./04-suricata-nmap-json-logs.jpg)
+![Raw Suricata Nmap JSON Logs](./images/lab-2/04-suricata-nmap-json-logs.jpg)
 
 The raw events contained fields including:
 

@@ -287,7 +287,7 @@ can provide a much stronger investigation lead than the command by itself.
 
 After generating the endpoint activity, the resulting data was visible in the Wazuh Threat Hunting environment.
 
-![Auditd Network Command Dashboard](./01-auditd-network-command-dashboard.jpg)
+![Auditd Network Command Dashboard](./images/lab-4/01-auditd-network-command-dashboard.jpg)
 
 The dashboard was filtered for:
 
@@ -319,7 +319,7 @@ This provided a high-level view before moving into the individual event records.
 
 The next step was to move from the dashboard summary to the event-level view.
 
-![Auditd Network Command Events](./02-auditd-network-command-events.jpg)
+![Auditd Network Command Events](./images/lab-4/02-auditd-network-command-events.jpg)
 
 The event table showed multiple records associated with the monitored Kali endpoint.
 
@@ -366,7 +366,7 @@ To isolate the custom detection, the investigation was narrowed to:
 rule.id: 100501
 ```
 
-![Custom Rule 100501 Events](./03-custom-rule-100501-events.jpg)
+![Custom Rule 100501 Events](./images/lab-4/03-custom-rule-100501-events.jpg)
 
 The filtered view showed:
 

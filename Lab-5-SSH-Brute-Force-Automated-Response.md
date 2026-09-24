@@ -148,7 +148,7 @@ The attack simulation was performed using Hydra in the controlled lab environmen
 
 The test generated repeated SSH login attempts against the Kali endpoint.
 
-![Hydra SSH Brute Force Test](./04-hydra-ssh-brute-force-test.jpg)
+![Hydra SSH Brute Force Test](./images/lab-5/04-hydra-ssh-brute-force-test.jpg)
 
 The terminal output shows repeated Hydra runs targeting:
 
@@ -198,7 +198,7 @@ The investigation becomes more interesting when the same source repeatedly gener
 
 The Wazuh dashboard was filtered around Rule `5710`.
 
-![SSH Rule 5710 Dashboard](./01-ssh-rule-5710-dashboard.jpg)
+![SSH Rule 5710 Dashboard](./images/lab-5/01-ssh-rule-5710-dashboard.jpg)
 
 The dashboard showed:
 
@@ -226,7 +226,7 @@ AND
 data.srcip:192.168.1.7
 ```
 
-![SSH Source IP Investigation](./02-ssh-source-ip-dashboard.jpg)
+![SSH Source IP Investigation](./images/lab-5/02-ssh-source-ip-dashboard.jpg)
 
 The filtered dashboard showed:
 
@@ -317,7 +317,7 @@ MITRE ATT&CK: T1110
 
 The event-level investigation provided a more detailed view of the activity.
 
-![SSH Brute Force Events](./03-ssh-brute-force-events.jpg)
+![SSH Brute Force Events](./images/lab-5/03-ssh-brute-force-events.jpg)
 
 The event list contained repeated records from:
 
