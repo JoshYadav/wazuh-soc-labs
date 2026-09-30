@@ -2,7 +2,7 @@
 
 ### Hands-On Security Monitoring, Detection, Investigation & Response
 
-![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-green)
+![Wazuh](https://img.shields.io/badge/Wazuh-SIEM-brightgreen)
 ![Focus](https://img.shields.io/badge/Focus-SOC%20%7C%20Blue%20Team-blue)
 ![Suricata](https://img.shields.io/badge/Network%20IDS-Suricata-orange)
 ![Auditd](https://img.shields.io/badge/Linux-Auditd-yellow)
