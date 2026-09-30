@@ -1,0 +1,1 @@
+alert http any any -> 172.24.112.74 8080 (msg:"LAB - Suspicious HTTP passwd Path"; http_uri; content:"/etc/passwd"; sid:1000008; rev:1;)

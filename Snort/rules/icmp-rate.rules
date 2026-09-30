@@ -1,0 +1,1 @@
+alert icmp any any -> 172.24.112.0/20 any (msg:"LAB - ICMP High Frequency Detected"; detection_filter:track by_src,count 5,seconds 10; sid:1000003; rev:1;)

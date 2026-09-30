@@ -1,0 +1,10 @@
+# Snort JSON output used for the Snort -> Wazuh integration.
+# The field list intentionally excludes Snort's human-formatted timestamp
+# so Wazuh/Indexer can use its own event timestamp safely.
+
+snort -c /usr/local/etc/snort/snort.lua \
+  -R ~/http.rules \
+  -r ~/snort-http-suspicious.pcap \
+  -A alert_json \
+  -l ~/snort-wazuh-logs \
+  --lua "alert_json = {file = true, fields = 'pkt_num proto pkt_gen pkt_len dir src_ap dst_ap rule action'}"

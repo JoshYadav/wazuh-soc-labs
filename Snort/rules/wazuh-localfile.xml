@@ -1,0 +1,5 @@
+<!-- Add inside the Wazuh manager ossec.conf configuration. -->
+<localfile>
+  <log_format>json</log_format>
+  <location>/var/log/snort/snort-alerts.json</location>
+</localfile>

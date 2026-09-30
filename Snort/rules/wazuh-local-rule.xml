@@ -1,0 +1,6 @@
+<!-- Custom Wazuh rule used to classify the Snort SID 1000008 event. -->
+<rule id="100900" level="10">
+  <field name="rule">^1:1000008:1$</field>
+  <description>Snort: Suspicious HTTP passwd path detected</description>
+  <group>snort,http,network_security,</group>
+</rule>

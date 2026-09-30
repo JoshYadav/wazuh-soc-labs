@@ -1,0 +1,15 @@
+# Local captures / generated artifacts
+*.pcap
+*.pcapng
+
+# Secrets / local configuration
+.env
+.env.*
+*.key
+*.pem
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
